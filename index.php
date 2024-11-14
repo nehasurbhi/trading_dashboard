@@ -10,25 +10,23 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js" defer></script>
-    
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
     <link href="style.css" rel="stylesheet"/>
 
     <title>Dashboard</title>
 
    
 </head>
-<body class="text-gray-800 font-inter ">  
+<body class="light-mode transition-colors duration-300 text-gray-800" style="background-color: var(--bg-content); color: var(--text-color);">  
    <!-- Include Navbar -->
 <?php include('components/sidebar.php'); ?>
 
 
-<div class="w-full md:w-[calc(100%-256px)] md:ml-64 bg-gray-100 min-h-screen transition-all main">
+<div class="w-full md:w-[calc(100%-256px)] md:ml-64  min-h-screen transition-all main">
     <!-- Include Sidebar -->
     <?php include('components/navbar.php'); ?>
 

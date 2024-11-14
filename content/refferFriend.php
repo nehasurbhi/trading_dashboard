@@ -1,23 +1,23 @@
 
-<h1 class="p-4 text-2xl font-semibold text-gray-700">Referral Program</h1>
+<h1 class="p-4 text-2xl font-semibold ">Referral Program</h1>
 <div class="container mx-auto p-4">
-<div class="bg-white rounded-sm shadow-sm p-8 md:flex md:space-x-8 max-w-full w-full">
+<div class=" rounded-sm shadow-sm p-8 md:flex md:space-x-8 max-w-full w-full border border-gray-100" style="background-color: var( --card-bg-color); color: var(--text-color);">
         <!-- Left Side - Image and Heading -->
         <div class="md:w-1/2 flex flex-col items-center text-center md:text-left">
-            <h2 class="text-2xl font-semibold text-gray-700 mb-4">Referral Program</h2>
+            <h2 class="text-2xl font-semibold  mb-4">Referral Program</h2>
             <img src="img\REFER_FRIEND.png" alt="Refer a Friend Illustration" class="mb-4 w-full max-w-sm">
         </div>
 
         <!-- Right Side - Referral Details -->
         <div class="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
-            <h3 class="text-xl font-bold text-gray-800 mb-1">GIVE 10%, GET €10 EUR</h3>
-            <p class="text-gray-600 font-medium mb-1">REFER A FRIEND</p>
-            <p class="text-gray-600 mb-4">Give your friends 10% off, and earn €10 EUR off when they buy. One sharing more happy people.</p>
+            <h3 class="text-xl font-bold  mb-1">GIVE 10%, GET €10 EUR</h3>
+            <p class=" font-medium mb-1">REFER A FRIEND</p>
+            <p class=" mb-4">Give your friends 10% off, and earn €10 EUR off when they buy. One sharing more happy people.</p>
             
             <!-- Referral Link Input -->
             <div class="flex items-center w-full mb-4 border rounded-lg overflow-hidden">
                 <input type="text" id="referralLink" value="https://crm.testcrm.co.in/Site/OpenAccount?id=30" 
-                       class="p-2 w-full focus:outline-none text-gray-700" readonly>
+                       class="p-2 w-full focus:outline-none text-gray-400" readonly style="background-color: var( --card-bg-color);">
                 <button onclick="copyToClipboard()" 
                         class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2">
                     📋
@@ -51,7 +51,7 @@
             <!-- Email Input -->
             <div class="flex items-center w-full border rounded-lg overflow-hidden">
                 <input type="email" placeholder="Your friend's email address" 
-                       class="p-2 w-full focus:outline-none text-gray-700">
+                       class="p-2 w-full focus:outline-none" style="background-color: var( --card-bg-color);">
                 <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2">
                     ✉️
                 </button>

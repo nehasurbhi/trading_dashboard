@@ -1271,3 +1271,68 @@ grid-template-columns: repeat(3, minmax(0, 1fr));
 #chartDoughnut {
 height: 130px; /* Adjust height as needed */
 }
+
+  /* Light Mode Styles */
+  body.light-mode {
+    --bg-color: #f8f4f3;
+    --text-color: #1f2937;
+    --sidebar-bg-color: #F8F4F3;
+    --sidebar-text-color: #1f2937;
+    --bg-content: #F7F7F7;
+    --text-breadcrumbs-color: #343D4A;
+    --card-bg-color:#FFFFFF;
+    --card-text-color:#999EA8;
+    --bg-list: #E5E7EB;
+    --bg-partener: #F0FDF4;
+     
+}
+/* Dark Mode Styles */
+body.dark-mode {
+    --bg-color: #1f2937;
+    --text-color: #ffffff;
+    --sidebar-bg-color: #2d3748;
+    /* --sidebar-text-color: #f9f9f9; */
+    --sidebar-text-color: #ffffff;
+    --bg-content: #080a0e;
+    --text-breadcrumbs-color: #ececec;
+    --card-bg-color: #080a0e;
+    --card-text-color:#e0e0e0;
+    --bg-list: #2563EB;
+    --bg-partener:#080a0e;
+    
+           
+}
+.sidebar-menu {
+--sidebar-bg-color: #f3f4f6; /* Light background by default */
+--sidebar-text-color: #1f2937; /* Dark text by default */
+}
+
+/* Dark mode adjustments */
+body.dark-mode .sidebar-menu {
+--sidebar-bg-color: #111827; /* Dark background in dark mode */
+--sidebar-text-color: #d1d5db; /* Light text in dark mode */
+}
+
+/* Hover and Active styles */
+.sidebar-menu a {
+transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for both modes */
+.sidebar-menu a:hover {
+color: #ffffff; /* White text on hover */
+--sidebar-text-color: #d1d5db;
+background-color: #374151; /* Slightly darker background on hover */
+}
+
+/* Active link styling */
+.sidebar-menu .active {
+color: #ffffff !important; /* White text for active item */
+background-color: #1f2937; /* Dark background for active item */
+}
+.fa-arrow-left::before {
+  content: "\f060";
+}
+.hidden {
+  display: none;
+}

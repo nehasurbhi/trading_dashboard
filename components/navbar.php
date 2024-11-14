@@ -1,8 +1,8 @@
  <!-- navbar -->
- <div class="py-2 px-6 bg-[#f8f4f3] flex items-center shadow-md shadow-black/5 sticky top-0 left-0 z-30">
-            <button type="button" class="text-lg text-gray-900 font-semibold sidebar-toggle">
-                <i class="ri-menu-line"></i>
-            </button>
+ <div class="py-2 px-6  flex items-center shadow-md  sticky top-0 left-0 z-30 " style="background-color: var(--sidebar-bg-color); color: var(--text-color);">
+        <button class="text-lg font-semibold sidebar-toggle">
+            <i class="ri-menu-line"></i>
+        </button>
 
             <ul class="ml-auto flex items-center">
 
@@ -40,6 +40,34 @@
                         </li>
                     </ul>
                 </li>
+
+                <button id="darkModeToggle" class="p-2 bg-gray-200 rounded-md focus:outline-none" style="color: var(--text-color);">
+                <i class="ri-moon-line"></i>
+            </button>
             </ul>
         </div>
         <!-- end navbar -->
+
+        <script>
+            document.getElementById('darkModeToggle').addEventListener('click', function() {
+    document.documentElement.classList.toggle('dark');
+    
+  });
+      const toggleButton = document.getElementById('darkModeToggle');
+const body = document.body;
+
+const savedMode = localStorage.getItem('theme') || 'light';
+body.classList.add(savedMode === 'dark' ? 'dark-mode' : 'light-mode');
+
+toggleButton.addEventListener('click', () => {
+    if (body.classList.contains('light-mode')) {
+        body.classList.replace('light-mode', 'dark-mode');
+        localStorage.setItem('theme', 'dark');
+    } else {
+        body.classList.replace('dark-mode', 'light-mode');
+        localStorage.setItem('theme', 'light');
+    }
+});
+
+
+        </script>

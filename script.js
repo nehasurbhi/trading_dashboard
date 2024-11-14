@@ -308,3 +308,51 @@ function copyToClipboard() {
     alert("Link copied to clipboard!");
 };
 
+// <!-- JavaScript for Dark Mode Toggle -->
+function showContent(id, button) {
+    // Hide all buttons except the clicked one
+    document.querySelectorAll('.payment-method').forEach(btn => {
+      if (btn !== button) {
+        btn.classList.add('hidden');
+      }
+    });
+
+    // Hide all content sections
+    document.querySelectorAll('.content-section').forEach(section => section.classList.add('hidden'));
+    
+    // Show the selected content section
+    document.getElementById(id).classList.remove('hidden');
+    
+    // Update selected payment method text
+    const selectedMethodText = {
+      'indian-cash': 'Indian Cash',
+      'india-local-banks': 'India Local Banks',
+      'bitcoin': 'Bitcoin',
+      'tether-trc20': 'Tether (TRC20)',
+      'ethereum': 'Ethereum',
+      'net-banking': 'India Net Banking',
+      'tRON': 'TRON (TRX)'
+    };
+    document.getElementById('selected-method').textContent = selectedMethodText[id];
+  }
+
+  function copyToClipboard(text) {
+    // Copy the account number to the clipboard
+    navigator.clipboard.writeText(text).then(() => {
+      alert('Account number copied to clipboard');
+    }).catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+  }
+
+//   Deposite copyLink
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+      alert('Account number copied to clipboard');
+    }).catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+  }
+
+
+
