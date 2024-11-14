@@ -1,9 +1,9 @@
 <div class=" px-6 py-3 flex justify-between items-center">
-        <h1 class="text-2xl font-semibold text-gray-700">Inbox</h1>
+        <h1 class="text-2xl font-semibold ">Inbox</h1>
         <nav class="text-gray-500 text-sm">
             <a href="#" class="hover:text-blue-500">Home</a>
-            <span class="mx-1">/</span>
-            <span class="text-gray-700">Inbox</span>
+            <span class="mx-1" style="color: var(--text-breadcrumbs-color);">/</span>
+            <span class="" style="color: var(--text-breadcrumbs-color);">Inbox</span>
         </nav>
     </div>
 

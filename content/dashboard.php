@@ -1,19 +1,19 @@
   <!-- Content -->
-  <div class="mb-5 container mx-auto p-4">
-    <div class="pb-3  flex justify-between items-center">
-        <h1 class="text-2xl font-semibold text-gray-700">Dashboard</h1>
+  <div class="mb-5 container mx-auto p-4"  style="color: var(--text-color);">
+    <div class="pb-3  flex justify-between items-center" style="color: var(--text-color);">
+        <h1 class="text-2xl font-semibold" style="color: var(--text-color);">Dashboard</h1>
         <nav class="text-blue-400 text-sm">
             <a href="#" class="hover:text-blue-500">Home</a>
-            <span class="mx-1 text-gray-800">/</span>
-            <span class="text-gray-800">Dashboard</span>
+            <span class="mx-1 " style="color: var(--text-breadcrumbs-color);">/</span>
+            <span class="" style="color: var(--text-breadcrumbs-color);">Dashboard</span>
         </nav>
     </div>
     
     
             <!-- top card start from here -->
-            <div class="grid grid-cols-1 md:grid-cols-11 gap-3 mb-6">
+            <div class="grid grid-cols-1 md:grid-cols-11 gap-3 mb-6" >
                 <!-- First Part: One card in col-span-2 -->
-                <div class="bg-white rounded-sm border border-gray-100 p-1 shadow-md shadow-black/5 col-span-1 md:col-span-3">
+                <div class=" rounded-sm border border-gray-100 p-1 shadow-md shadow-black/5 col-span-1 md:col-span-3" style="background-color: var( --card-bg-color); color: var(--text-color);">
                     <div class="flex justify-between">
                             <canvas class="p-2" id="chartDoughnut"></canvas>            
                     </div>   
@@ -22,58 +22,58 @@
                 <!-- Second Part: Four cards in col-span-4 -->
                 
                 <!-- Card 2: Spans 2 columns -->
-                  <div class="col-span-2 bg-white rounded-sm border border-gray-100 px-2 shadow-black/5 shadow-sm flex items-center  space-x-4">
+                  <div class="col-span-2  rounded-sm border border-gray-100border border-gray-100 px-2 shadow-black/5 shadow-sm flex items-center  space-x-4" style="background-color: var( --card-bg-color); color: var(--text-color);">
                   <!-- Icon Container -->
                     <div class="flex-shrink-0">
                       <!-- Example Icon (replace with your image or SVG as needed) -->
-                      <img src="path/to/your/icon.png" alt="Chart Icon" class="w-10 h-10" />
+                      <img src="img/icons/money-transfer.png" alt="Chart Icon" class="w-10 h-10" />
                     </div>
                     <!-- Text Content -->
                     <div>
-                      <div class="text-sm font-medium text-gray-500">Total MT5 Account</div>
+                      <div class="text-sm font-medium " style="color: var(--card-text-color);">Available Balance</div>
                       <div class="text-2xl font-semibold text-purple-600">0</div>
                     </div>
                   </div>
   
 
                   <!-- Card 3: Spans 2 columns -->
-                  <div class="col-span-2 bg-white rounded-sm border border-gray-100 px-2 shadow-black/5 shadow-sm flex items-center space-x-4">
+                  <div class="col-span-2  rounded-sm border border-gray-100 px-2 shadow-black/5 shadow-sm flex items-center space-x-4" style="background-color: var( --card-bg-color); color: var(--text-color);">
                                   <!-- Icon Container -->
                                     <div class="flex-shrink-0">
                                       <!-- Example Icon (replace with your image or SVG as needed) -->
-                                      <img src="path/to/your/icon.png" alt="Chart Icon" class="w-10 h-10" />
+                                      <img src="img/icons/bar-chart.png" alt="Chart Icon" class="w-10 h-10" />
                                     </div>
                                     <!-- Text Content -->
                                     <div>
-                                      <div class="text-sm font-medium text-gray-500">Total MT5 Account</div>
+                                      <div class="text-sm font-medium " style="color: var(--card-text-color);">Total MT5 Account</div>
                                       <div class="text-2xl font-semibold text-purple-600">0</div>
                                     </div>
                   </div>
 
                   <!-- Card 4: Spans 2 columns -->
-                  <div class="col-span-2 bg-white rounded-sm border border-gray-100 px-2 shadow-black/5 shadow-sm flex items-center space-x-4">
+                  <div class="col-span-2  rounded-sm border border-gray-100 px-2 shadow-black/5 shadow-sm flex items-center space-x-4" style="background-color: var( --card-bg-color); color: var(--text-color);">
                                   <!-- Icon Container -->
                                     <div class="flex-shrink-0">
                                       <!-- Example Icon (replace with your image or SVG as needed) -->
-                                      <img src="path/to/your/icon.png" alt="Chart Icon" class="w-10 h-10" />
+                                      <img src="img/icons/save-money.png" alt="Chart Icon" class="w-10 h-10" />
                                     </div>
                                     <!-- Text Content -->
                                     <div>
-                                      <div class="text-sm font-medium text-gray-500">Total MT5 Account</div>
+                                      <div class="text-sm font-medium " style="color: var(--card-text-color);">Total Deposit</div>
                                       <div class="text-2xl font-semibold text-purple-600">0</div>
                                     </div>
                   </div>
 
                 <!-- Card 5: Spans 2 columns -->
-                <div class="col-span-2 bg-white rounded-sm border border-gray-100 px-2 shadow-black/5 shadow-sm flex items-center space-x-4">
+                <div class="col-span-2  rounded-sm border border-gray-100 px-2 shadow-black/5 shadow-sm flex items-center space-x-4" style="background-color: var( --card-bg-color); color: var(--text-color);">
                 <!-- Icon Container -->
                   <div class="flex-shrink-0">
                     <!-- Example Icon (replace with your image or SVG as needed) -->
-                    <img src="path/to/your/icon.png" alt="Chart Icon" class="w-10 h-10" />
+                    <img src="img/icons/atm.png" alt="Chart Icon" class="w-10 h-10" />
                   </div>
                   <!-- Text Content -->
                   <div>
-                    <div class="text-sm font-medium text-gray-500">Total MT5 Account</div>
+                    <div class="text-sm font-medium " style="color: var(--card-text-color);">Total Withdrawl</div>
                     <div class="text-2xl font-semibold text-purple-600">0</div>
                   </div>
                 </div>
@@ -84,14 +84,14 @@
             <!-- graph start from here  -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
                 
-                <div class="bg-white border border-gray-100 shadow-md shadow-black/5 p-6 rounded-md lg:col-span-2">
+                <div class=" border border-gray-100 shadow-md shadow-black/5 p-6 rounded-md lg:col-span-2" style="background-color: var( --card-bg-color); color: var(--text-color);">
                    
                    
                     <div>
                         <canvas id="order-chart"></canvas>
                     </div>
                 </div>
-                <div class="bg-white border border-gray-100 shadow-md shadow-black/5 p-6 rounded-md">
+                <div class=" border border-gray-100 shadow-md shadow-black/5 p-6 rounded-md" style="background-color: var( --card-bg-color); color: var(--text-color);">
                     <div class="flex justify-between mb-4 items-start">
                        
                        
@@ -109,11 +109,11 @@
                             <h2 class="text-2xl font-bold mb-2">Open Account</h2>
     
                             <!-- Paragraph -->
-                            <p class="text-gray-600 mb-4">Get access to premium features by upgrading your plan today.</p>
+                            <p class=" mb-4" style="color: var(--card-text-color);">Get access to premium features by upgrading your plan today.</p>
                         
                             <!-- Button -->
                             <button class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">
-                              Upgrade
+                            Open Account
                             </button>
                          </div>
                     </div>
@@ -122,19 +122,19 @@
             <!-- graph end -->
 
             <!-- table start from here -->
-            <div class="container mx-auto my-5 border border-gray-200 pb-5">
-                <h2 class="text-xl font-bold px-4 py-2 bg-white">Account List</h2>
+            <div class="container mx-auto my-5 border border-gray-200 " style="margin-bottom:50px;">
+                <h2 class="text-xl font-bold px-4 py-2 " style="background-color: var( --card-bg-color); color: var(--text-color);">Account List</h2>
                 
                 <div class="overflow-x-auto">
-                  <table class="min-w-full bg-white border-collapse border border-gray-300">
-                    <thead class="bg-gray-200 border border-gray-300">
-                      <tr>
-                        <th class="px-4 py-2 border border-gray-300 text-left text-gray-600 font-semibold text-sm">Account Number</th>
-                        <th class="px-4 py-2 border border-gray-300 text-left text-gray-600 font-semibold text-sm">Type</th>
-                        <th class="px-4 py-2 border border-gray-300 text-left text-gray-600 font-semibold text-sm">Leverage</th>
-                        <th class="px-4 py-2 border border-gray-300 text-left text-gray-600 font-semibold text-sm">Balance</th>
-                        <th class="px-4 py-2 border border-gray-300 text-left text-gray-600 font-semibold text-sm">Equity</th>
-                        <th class="px-4 py-2 border border-gray-300 text-center text-gray-600 font-semibold text-sm">Actions</th>
+                  <table class="min-w-full  border-collapse border border-gray-300" style="background-color: var( --card-bg-color); color: var(--text-color);">
+                    <thead class="border border-gray-300" style="background-color: var(--bg-list); ">
+                      <tr style="color: var(--text-color);">
+                        <th class="px-4 py-2 border border-gray-300 text-left  font-semibold text-sm">Account Number</th>
+                        <th class="px-4 py-2 border border-gray-300 text-left  font-semibold text-sm">Type</th>
+                        <th class="px-4 py-2 border border-gray-300 text-left  font-semibold text-sm">Leverage</th>
+                        <th class="px-4 py-2 border border-gray-300 text-left  font-semibold text-sm">Balance</th>
+                        <th class="px-4 py-2 border border-gray-300 text-left  font-semibold text-sm">Equity</th>
+                        <th class="px-4 py-2 border border-gray-300 text-center  font-semibold text-sm">Actions</th>
                       </tr>
                     </thead>
                     <tbody>

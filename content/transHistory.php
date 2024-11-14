@@ -4,35 +4,35 @@
     <!-- content -->
     
     <div class="pb-3  flex justify-between items-center">
-        <h1 class="text-2xl font-semibold text-gray-700">Transaction History</h1>
+        <h1 class="text-2xl font-semibold ">Transaction History</h1>
         <nav class="text-blue-400 text-sm">
             <a href="#" class="hover:text-blue-500">Home</a>
-            <span class="mx-1 text-gray-800">/</span>
-            <span class="text-gray-800">Transaction History</span>
+            <span class="mx-1 " style="color: var(--text-breadcrumbs-color);">/</span>
+            <span class="" style="color: var(--text-breadcrumbs-color);">Transaction History</span>
         </nav>
     </div>
 
     <div class="  mb-6">
-        <div class="flex space-x-4 text-gray-700 font-semibold border-b border-gray-300 ">
-          <button class=" py-2 px-4 border-b-2 border-transparent hover:border-blue-700 focus:border-gray-700 focus:outline-none">Deposit</button>
-          <button class=" py-2 px-4 border-b-2 border-transparent hover:border-blue-700 focus:border-gray-700 focus:outline-none">Withdrawal</button>
-          <button class=" py-2 px-4 border-b-2 border-transparent hover:border-blue-700 focus:border-gray-700 focus:outline-none">Auto Transfer</button>
-          <button class="text-blue-700 py-2 px-4 border-b-2 border-transparent hover:border-blue-700 focus:border-gray-700 focus:outline-none">Transaction History</button>
+        <div class="flex space-x-4 font-semibold border-b border-gray-300 ">
+        <button class=" py-2 px-4 border-b-2 border-transparent hover:border-blue-700 focus:border-gray-700 focus:outline-none"><a href="index.php?page=deposit">Deposit</a></button>
+        <button class=" py-2 px-4 border-b-2 border-transparent hover:border-blue-700 focus:border-gray-700 focus:outline-none"><a href="index.php?page=withdrawal">Withdrawal</a></button>
+          <button class=" py-2 px-4 border-b-2 border-transparent hover:border-blue-700 focus:border-gray-700 focus:outline-none"><a href="index.php?page=transfer">Auto Transfer</a></button>
+          <button class="text-blue-700 py-2 px-4 border-b-2 border-transparent hover:border-blue-700 focus:border-gray-700 focus:outline-none"><a href="index.php?page=transHistory">Transaction History</a></button>
         </div>
       </div>
-      <div class="bg-white shadow-lg p-6">
+      <div class=" shadow-lg p-6 border border-gray-100" style="background-color: var( --card-bg-color); color: var(--text-color);">
       <!-- Date Filter Section -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center mb-6">
         <!-- From Date -->
         <div>
           <label for="fromDate" class="block font-medium mb-2">From</label>
-          <input type="date" id="fromDate" class="w-full border rounded px-4 py-2">
+          <input type="date" id="fromDate" class="w-full border rounded px-4 py-2" style="background-color: var( --card-bg-color);">
         </div>
 
         <!-- To Date -->
         <div>
           <label for="toDate" class="block font-medium mb-2">To</label>
-          <input type="date" id="toDate" class="w-full border rounded px-4 py-2">
+          <input type="date" id="toDate" class="w-full border rounded px-4 py-2" style="background-color: var( --card-bg-color);">
         </div>
 
         <!-- Filter Button -->
@@ -48,9 +48,9 @@
 
       <!-- Transaction Table -->
       <div class="overflow-auto">
-        <table class="min-w-full bg-gray-100 border rounded-lg shadow-md">
-          <thead>
-            <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+        <table class="min-w-full bg-gray-100 border rounded-lg shadow-md" style="background-color: var( --card-bg-color); color: var(--text-color);">
+          <thead style="background-color: var(--bg-list); ">
+            <tr class=" uppercase text-sm leading-normal" style="color: var(--text-color);">
               <th class="py-3 px-6 text-left">Reference</th>
               <th class="py-3 px-6 text-left">Type</th>
               <th class="py-3 px-6 text-left">Account No</th>

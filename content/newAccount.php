@@ -4,19 +4,19 @@
     <!-- content start -->
     
     <div class="pb-3  flex justify-between items-center">
-        <h1 class="text-2xl font-semibold text-gray-700">Open New Account</h1>
+        <h1 class="text-2xl font-semibold ">Open New Account</h1>
         <nav class="text-blue-400 text-sm">
             <a href="#" class="hover:text-blue-500">Home</a>
-            <span class="mx-1 text-gray-800">/</span>
-            <span class="text-gray-800">Open New Account</span>
+            <span class="mx-1 " style="color: var(--text-breadcrumbs-color);">/</span>
+            <span class="" style="color: var(--text-breadcrumbs-color);">Open New Account</span>
         </nav>
     </div>
-    <div class="bg-white shadow-lg p-6">
+    <div class=" shadow-lg p-6 border border-gray-100" style="background-color: var( --card-bg-color); color: var(--text-color); ">
           <form id="accountForm" class="space-y-4">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <label for="leverage" class="block text-gray-800 text-sm mb-1 font-medium">Leverage</label>
-                <select id="leverage" class="w-full bg-gray-50 p-2 border border-gray-300 rounded-md" required>
+                <label for="leverage" class="block  text-sm mb-1 font-medium">Leverage</label>
+                <select id="leverage" class="w-full bg-gray-50 p-2 border border-gray-300 rounded-md" required style="background-color: var( --card-bg-color);">
                   <option value="">--Select Leverage--</option>
                   <option value="1:10">1:10</option>
                   <option value="1:20">1:20</option>
@@ -26,8 +26,8 @@
               </div>
       
               <div>
-                <label for="accountType" class="block text-gray-800 text-sm font-medium mb-1">Account Type</label>
-                <select id="accountType" class="w-full bg-gray-50 p-2 border border-gray-300 rounded-md" required>
+                <label for="accountType" class="block  text-sm font-medium mb-1">Account Type</label>
+                <select id="accountType" class="w-full bg-gray-50 p-2 border border-gray-300 rounded-md" required style="background-color: var( --card-bg-color);">
                   <option value="">--Select Account--</option>
                   <option value="Standard">Standard</option>
                   <option value="Premium">Premium</option>

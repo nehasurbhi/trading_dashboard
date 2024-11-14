@@ -1,6 +1,6 @@
 <div class="container mx-auto p-6">
         <div class="text-left">
-            <h1 class="text-4xl font-bold text-gray-800 mb-5">Trading Platforms</h1>
+            <h1 class="text-4xl font-bold  mb-5">Trading Platforms</h1>
 <!-- Container with background image -->
 <div class="bg-cover bg-center" style="background-image: url('img/blur-background.jpg');">
     <!-- Main Flex Container -->
